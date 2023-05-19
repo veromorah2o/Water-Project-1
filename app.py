@@ -141,7 +141,7 @@ inputs = widgetbox(text, menu, Mass)
 layout = row(plot, column(text, menu, Mass))
 
 curdoc().add_root(layout)
-curdoc().title = "Concentration Signals"
+curdoc().title = "Concentration Signals (1 Dimension)"
 
 
 # In[ ]:
