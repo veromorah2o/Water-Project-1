@@ -90,7 +90,7 @@ plot.line('x', 'y', source=source1, line_width=3, line_alpha=0.6, color='blue', 
 plot.line('x', 'y', source=source2, line_width=3, line_alpha=0.6, color='green', legend_label='20 days')
 
 # Set up widgets aka. sliders and text box
-text = TextInput(title="title", value='Concentration Signals (1 Dimension)')
+text = TextInput(title="Cross Section Tool", value='Concentration Signals (1 Dimension)')
 Mass = Slider(title="Pollution Mass (kg)", value=500, start=300, end=1000, step=5)
 menu = Select(options=['Well Sorted Sand', 'Glacial Till', 'Silt'], value='Well Sorted Sand', title='Soil Type')
 
